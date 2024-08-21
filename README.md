@@ -1,4 +1,4 @@
- - [DEMO LINK]((https://katya-sn.github.io/bose-landing/))
+ - [DEMO LINK](https://katya-sn.github.io/bose-landing/)
 
 **Key Sections**:
 
