@@ -48,7 +48,7 @@
   &__box {
     border-radius: 8px;
     background-color: $input-background-color;
-    border: none;
+    border: 2px solid transparent;
     outline: none;
     padding: 14px 16px;
     color: $main-text-color;
@@ -61,7 +61,7 @@
     }
 
     &:hover {
-      border: 1px solid #dbdbdb;
+      border: 2px solid #dbdbdb;
 
       &::placeholder {
         color: $main-text-color;
