@@ -49,15 +49,27 @@
     border-radius: 8px;
     background-color: $input-background-color;
     border: none;
+    outline: none;
     padding: 14px 16px;
+    color: $main-text-color;
+    font-size: 14px;
+    line-height: 19.6px;
+    letter-spacing: 0.15px;
+
+    &::placeholder {
+      color: $input-text-color;
+    }
 
     &:hover {
-      outline-color: #dbdbdb;
-      color: $main-text-color;
+      border: 1px solid #dbdbdb;
+
+      &::placeholder {
+        color: $main-text-color;
+      }
     }
 
     &:focus {
-      outline-color: $button-background-color;
+      border: 2px solid $button-background-color;
     }
 
     &:valid {
@@ -69,11 +81,5 @@
     resize: none;
     margin-bottom: 16px;
     height: 148px;
-  }
-
-  &::placeholder {
-    color: $input-text-color;
-    font-size: 14px;
-    letter-spacing: 0.15px;
   }
 }

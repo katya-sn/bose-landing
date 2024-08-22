@@ -9,7 +9,12 @@
   }
 
   &__logo {
-    display: flex;
+    align-self: center;
+    height: 16px;
+
+    @include on-tablet {
+      height: 24px;
+    }
   }
 
   &__icons {

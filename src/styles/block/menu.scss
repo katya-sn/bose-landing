@@ -35,8 +35,6 @@
     letter-spacing: 2px;
     font-size: 16px;
     margin-bottom: 16px;
-
-    @include hover(color, $input-text-color);
   }
 
   &__call-to-order {
@@ -50,7 +48,5 @@
     letter-spacing: 2px;
     font-size: 16px;
     text-transform: uppercase;
-
-    @include hover(color, $input-text-color);
   }
 }
