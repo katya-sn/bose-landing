@@ -14,5 +14,7 @@
     font-size: 22px;
     line-height: 22px;
     letter-spacing: 0;
+
+    @include hover(color, $input-text-color);
   }
 }

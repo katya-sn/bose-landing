@@ -8,8 +8,11 @@
     width: 32px;
   }
 
+  transition: transform 0.1s;
 
-  @include hover(transform, scale(1.2));
+  &:hover {
+    transform: scale(1.2);
+  }
 
   &--phone {
     position: relative;

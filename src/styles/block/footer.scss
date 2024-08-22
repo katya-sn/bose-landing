@@ -6,7 +6,7 @@
     padding-bottom: 120px;
   }
 
-  @include on-desktop{
+  @include on-desktop {
     padding-bottom: 102px;
   }
 
@@ -15,7 +15,7 @@
     row-gap: 96px;
 
     @include on-tablet {
-        row-gap: 120px;
+      row-gap: 120px;
     }
-}
+  }
 }

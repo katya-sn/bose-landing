@@ -2,14 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-block: 24px;
+  height: 72px;
 
   @include on-tablet {
-    padding-block: 32px;
+    height: 96px;
   }
 
   &__logo {
-   display: flex;
+    display: flex;
   }
 
   &__icons {
