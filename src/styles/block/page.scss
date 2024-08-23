@@ -34,5 +34,6 @@
 
   &:has(.page__menu:target) {
     height: 100%;
+    overflow: hidden;
   }
 }
