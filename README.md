@@ -1,3 +1,5 @@
+# Bang&Olufsen Landing Page
+ 
  - [DEMO LINK](https://katya-sn.github.io/bose-landing/)
 
 **Key Sections**:
