@@ -15,8 +15,7 @@
 
 1. **HTML** for the page structure.
 2. **SCSS** for styling and ensuring responsiveness.
-3. **JavaScript** .
-4. **Fonts**: The "Manrope" font is used via Google Fonts.
+3. **JavaScript**
 
 **Features**:
 
